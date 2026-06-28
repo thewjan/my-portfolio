@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W.O.T.Jayaweera</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">OTJ<span class="cursor-dot">_</span></a>
+    <nav class="nav-links">
+      <a href="#about"><span class="path">/about</span></a>
+      <a href="#skills"><span class="path">/skills</span></a>
+      <a href="#projects"><span class="path">/projects</span></a>
+      <a href="#experience"><span class="path">/experience</span></a>
+      <a href="#contact"><span class="path">/contact</span></a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="prompt-line">
+          <span class="prompt-sigil">&gt;</span>
+          <span id="typedRole" class="prompt-text"></span><span class="cursor-blink">|</span>
+        </p>
+        <h1 class="hero-title">
+          W.O.T.Jayaweera<br>
+          software that <span class="accent-underline">holds up</span><br>
+          under real use.
+        </h1>
+        <p class="hero-sub">
+          BSc in ICT undergraduate at University of Sri Jayewardenepura, interested in software development, web technologies, and building practical solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          <a href="images/Omika's CV.pdf" class="btn btn-ghost" download id="downloadCvHero">Download CV ↓</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img src="images/pic01.png" alt="Portrait of omika" class="hero-photo" id="heroPhoto">
+      </div>
+    </div>
+    <div class="hero-meta" aria-hidden="true">
+      <span class="dot-sep">·</span>
+      <span>status: <span class="status-live">live</span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="path">/about</span>
+      <h2>A little context</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <img src="images/pic 00.png" alt="Portrait of Alex Rivera" class="about-photo" id="aboutPhoto">
+      </div>
+      <div class="about-text">
+        <p>
+          I am W. O. T. Jayaweera, a BSc in Information and Communication Technology undergraduate at the University of Sri Jayewardenepura.
+           I am passionate about software development, web technologies, and exploring new areas in the technology field.
+           I enjoy learning programming concepts, developing applications, and improving my technical knowledge through academic and personal projects.
+        </p>
+        <p>
+          I am focused on becoming a skilled developer by building practical solutions and continuously improving my problem-solving abilities.
+           I believe in writing clean and efficient code, learning new technologies, and using creativity to develop user-friendly digital experiences.
+        </p>
+        <a href="assets/cv.pdf" class="btn btn-ghost about-cv-btn" download id="downloadCvAbout">Download full CV ↓</a>
+      </div>
+      <dl class="about-facts">
+        <div class="fact">
+          <dt>Experience</dt>
+          <dd>not yet</dd>
+        </div>
+        <div class="fact">
+          <dt>Focus</dt>
+          <dd>Web Development,Programming,
+            Problem Solving</dd>
+        </div>
+        <div class="fact">
+          <dt>Based in</dt>
+          <dd>Horana, Sri Lanka</dd>
+        </div>
+        <div class="fact">
+          <dt>Available for</dt>
+          <dd>Contract &amp; full-time roles</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="path">/skills</span>
+      <h2>Stack &amp; tools</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <ul class="tag-list">
+          <li>JavaScript</li><li>Python</li><li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <ul class="tag-list">
+          <li>React</li><li>Vue</li><li>Vite</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Backend</h3>
+        <ul class="tag-list">
+          <li>Node.js</li><li>Django</li><li>PostgreSQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Infra &amp; Tools</h3>
+        <ul class="tag-list">
+          <li>Docker</li><li>CI/CD</li><li>Git</li><li>Linux</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <span class="path">/projects</span>
+      <h2>Selected work</h2>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-card">
+        <div class="project-tab">
+          <span class="project-filename">LogisticsManagementSystem.java</span>
+          <span class="project-status">production</span>
+        </div>
+        <div class="project-body">
+          <h3>Logistics Management System</h3>
+          <p>
+            A logistics management application designed to handle shipment tracking, delivery coordination,
+             and transport record management in a structured way. The system helps reduce manual work by 
+             centralizing logistics data and improving visibility across operations.
+          </p>
+          <div class="project-diff">
+            <span class="diff-add">+ Java</span>
+            <span class="diff-add">+ MySQL</span>
+            <span class="diff-add">+ gRPC</span>
+            <span class="diff-rem">− manual spreadsheets</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-arrow">Case study →</a>
+            <a href="#" class="link-arrow">Source →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-head">
+      <span class="path">/experience</span>
+      <h2>Where I've worked</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2024 — Present</div>
+        <div class="timeline-content">
+          <h3>BSc ICT Undergraduate · University of Sri Jayawardenepura</h3>
+          <p>Currently focused on studying core computer science and information and communication technology subjects while building personal and academic projects. Gaining hands-on experience in programming, software development, and problem-solving through coursework and small-scale systems like the Logistics Management System.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="section-head">
+      <span class="path">/contact</span>
+      <h2>Let's talk</h2>
+    </div>
+    <div class="contact-grid">
+      <p class="contact-lede">
+        Have a project in mind, or just want to talk shop about
+        distributed systems? My inbox is open.
+      </p>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© 2026 Omika Thewjan</span>
+  <span class="footer-links">
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Email</a>
+  </span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
