@@ -96,12 +96,7 @@ function handlePhotoFallback(imgId) {
 handlePhotoFallback('heroPhoto');
 handlePhotoFallback('aboutPhoto');
 
-// =========================================================
-// CV download
-// Replace assets/cv.pdf with your real CV file. Until then,
-// clicking the button shows a friendly message instead of
-// silently failing.
-// =========================================================
+
 function handleCvDownload(linkId) {
   const link = document.getElementById(linkId);
   if (!link) return;
@@ -136,6 +131,6 @@ form.addEventListener('submit', (e) => {
 
 
   formStatus.style.color = 'var(--sage)';
-  formStatus.textContent = `Thanks, ${name.split(' ')[0]}! This is a demo form — wire it up to your backend or a service like Formspree to actually receive messages.`;
+  formStatus.textContent = `Thanks, ${name.split(' ')[0]}!`;
   form.reset();
 });
